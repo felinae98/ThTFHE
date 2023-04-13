@@ -1,0 +1,8 @@
+{
+    "$schema": "https://github.com/devcontainers/spec/raw/main/schemas/devContainer.base.schema.json",
+    "name": "thfhe",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "../"
+    }
+}

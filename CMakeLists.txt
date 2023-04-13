@@ -5,6 +5,8 @@ project(ThTFHE)
 add_subdirectory(OpenBLAS)
 add_subdirectory(tfhe/src)
 
+include_directories("${CMAKE_SOURCE_DIR}/tfhe/src/include")
+
 get_target_property(TFHE_SOURCE tfhe-spqlios-fma SOURCES)
 get_target_property(OpenBLAS_SOURCE openblas SOURCES)
 
