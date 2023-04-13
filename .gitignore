@@ -106,5 +106,5 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-build/
+build*/
 test/

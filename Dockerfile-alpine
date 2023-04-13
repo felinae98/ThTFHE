@@ -1,0 +1,4 @@
+# syntax=docker/dockerfile:1.2
+# vim: ft=dockerfile:
+FROM alpine
+RUN apk add --no-cache cmake alpine-sdk boost-dev blas-dev
