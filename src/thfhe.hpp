@@ -14,7 +14,6 @@
 #include <boost/numeric/ublas/io.hpp>
 #include <boost/numeric/ublas/matrix_proxy.hpp>
 #include <boost/numeric/ublas/blas.hpp>
-#include <omp.h>
 #include <cblas.h>
 
 #define MSIZE 2
